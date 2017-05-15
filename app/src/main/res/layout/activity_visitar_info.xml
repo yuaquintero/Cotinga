@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="8dp"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tvVisitarNombre"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_ave_info"
+        android:orientation="vertical"
+        android:background="@drawable/fondoaves"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.administrador.aves.Visitar_info">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/ivVisitarFoto"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/bLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/link"/>
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="1dp">
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="start"
+                android:id="@+id/SitioLink"
+                android:background="@color/whitesmoket"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="@string/sitioinfo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="start"
+                android:id="@+id/tvVisitarLink"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="start"
+                android:id="@+id/TipoSitio"
+                android:background="@color/whitesmoket"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="@string/sitioinfo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="start"
+                android:id="@+id/tvVisitarTipo"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="start"
+                android:id="@+id/SitioDescripcion"
+                android:background="@color/whitesmoket"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="@string/sitioinfo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="start"
+                android:id="@+id/tvVisitarDescripcion"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

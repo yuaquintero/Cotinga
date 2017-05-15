@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_avistamiento"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/cortina_1"
+    android:screenOrientation="portrait"
+    tools:context="com.example.sennova.cotinga.Avistamiento">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filtro1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/gray"
+            android:layout_height="2dp">
+        </LinearLayout>
+
+        <TextView
+            android:clickable="true"
+            android:onClick="toggle_contents_anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCriterio5"
+            android:text="@string/info1"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/formas1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_gravity="left"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/rbNinguno5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo1" />
+
+                <RadioButton
+                    android:id="@+id/rbAve1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo2" />
+
+                <RadioButton
+                    android:id="@+id/rbAve2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo3" />
+
+                <RadioButton
+                    android:id="@+id/rbAve3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo4" />
+
+                <RadioButton
+                    android:id="@+id/rbAve4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo5" />
+
+                <RadioButton
+                    android:id="@+id/rbAve5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo6" />
+
+                <RadioButton
+                    android:id="@+id/rbAve6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo7" />
+
+                <RadioButton
+                    android:id="@+id/rbAve7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo8" />
+
+                <RadioButton
+                    android:id="@+id/rbAve8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo9" />
+
+                <RadioButton
+                    android:id="@+id/rbAve9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/formainfo10" />
+            </RadioGroup>
+
+
+            <ImageView
+                android:layout_width="320px"
+                android:layout_height="350px"
+                android:id="@+id/ivAve"
+                android:src="@drawable/botonaves"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/gray"
+            android:layout_height="2dp">
+        </LinearLayout>
+
+        <!--Forma Pico-->
+        <TextView
+            android:clickable="true"
+            android:onClick="toggle_contents_anim2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCriterio4"
+            android:text="@string/info2"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/picos1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/rbNinguno4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo1" />
+
+                <RadioButton
+                    android:id="@+id/rbPico1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo2" />
+
+                <RadioButton
+                    android:id="@+id/rbPico2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo3" />
+
+                <RadioButton
+                    android:id="@+id/rbPico3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo4" />
+
+                <RadioButton
+                    android:id="@+id/rbPico4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo5" />
+
+                <RadioButton
+                    android:id="@+id/rbPico5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo6" />
+
+                <RadioButton
+                    android:id="@+id/rbPico6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo7" />
+
+                <RadioButton
+                    android:id="@+id/rbPico7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo8" />
+
+                <RadioButton
+                    android:id="@+id/rbPico8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo9" />
+
+                <RadioButton
+                    android:id="@+id/rbPico9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/picoinfo10" />
+            </RadioGroup>
+
+            <ImageView
+                android:layout_width="320px"
+                android:layout_height="350px"
+                android:id="@+id/ivPico"
+                android:src="@drawable/botonaves"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/gray"
+            android:layout_height="2dp">
+        </LinearLayout>
+        <!--Color1-->
+        <TextView
+            android:clickable="true"
+            android:onClick="toggle_contents_anim3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCriterio1"
+            android:text="@string/info3"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/colores1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/rbNinguno1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo1" />
+
+                <RadioButton
+                    android:id="@+id/rbAmarillo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo2" />
+
+                <RadioButton
+                    android:id="@+id/rbAzul1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo3" />
+
+                <RadioButton
+                    android:id="@+id/rbBeige1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo18" />
+
+                <RadioButton
+                    android:id="@+id/rbBlanco1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo4" />
+
+                <RadioButton
+                    android:id="@+id/rbCafe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo5" />
+
+                <RadioButton
+                    android:id="@+id/rbDorado1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo6" />
+
+                <RadioButton
+                    android:id="@+id/rbGris1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo7" />
+
+                <RadioButton
+                    android:id="@+id/rbMorado1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo8" />
+
+                <RadioButton
+                    android:id="@+id/rbNaranja1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo9" />
+
+                <RadioButton
+                    android:id="@+id/rbNegro1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo10" />
+
+                <RadioButton
+                    android:id="@+id/rbOliva1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo19" />
+
+                <RadioButton
+                    android:id="@+id/rbPardo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo11" />
+
+                <RadioButton
+                    android:id="@+id/rbRojo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo12" />
+
+                <RadioButton
+                    android:id="@+id/rbRosado1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo13" />
+
+                <RadioButton
+                    android:id="@+id/rbRufo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo14" />
+
+                <RadioButton
+                    android:id="@+id/rbTurquesa1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo15" />
+
+                <RadioButton
+                    android:id="@+id/rbVerde1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo16" />
+
+                <RadioButton
+                    android:id="@+id/rbVioleta1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo17" />
+            </RadioGroup>
+
+
+            <ImageView
+                android:layout_width="320px"
+                android:layout_height="350px"
+                android:id="@+id/ivColor1"
+                android:src="@drawable/colorful"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/gray"
+            android:layout_height="2dp">
+        </LinearLayout>
+        <!--Color2-->
+        <TextView
+            android:clickable="true"
+            android:onClick="toggle_contents_anim3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCriterio2"
+            android:text="@string/info4"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/colores2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/rbNinguno2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo1" />
+
+                <RadioButton
+                    android:id="@+id/rbAmarillo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo2" />
+
+                <RadioButton
+                    android:id="@+id/rbAzul2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo3" />
+
+                <RadioButton
+                    android:id="@+id/rbBeige2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo18" />
+
+                <RadioButton
+                    android:id="@+id/rbBlanco2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo4" />
+
+                <RadioButton
+                    android:id="@+id/rbCafe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo5" />
+
+                <RadioButton
+                    android:id="@+id/rbDorado2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo6" />
+
+                <RadioButton
+                    android:id="@+id/rbGris2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo7" />
+
+                <RadioButton
+                    android:id="@+id/rbMorado2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo8" />
+
+                <RadioButton
+                    android:id="@+id/rbNaranja2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo9" />
+
+                <RadioButton
+                    android:id="@+id/rbNegro2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo10" />
+
+                <RadioButton
+                    android:id="@+id/rbOliva2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo19" />
+
+                <RadioButton
+                    android:id="@+id/rbPardo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo11" />
+
+                <RadioButton
+                    android:id="@+id/rbRojo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo12" />
+
+                <RadioButton
+                    android:id="@+id/rbRosado2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo13" />
+
+                <RadioButton
+                    android:id="@+id/rbRufo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo14" />
+
+                <RadioButton
+                    android:id="@+id/rbTurquesa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo15" />
+
+                <RadioButton
+                    android:id="@+id/rbVerde2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo16" />
+
+                <RadioButton
+                    android:id="@+id/rbVioleta2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/colorinfo17" />
+            </RadioGroup>
+
+
+            <ImageView
+                android:layout_width="320px"
+                android:layout_height="350px"
+                android:id="@+id/ivColor2"
+                android:src="@drawable/colorful"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp" />
+
+        </LinearLayout>
+
+        <!--Enviar-->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bFiltrar"
+            android:layout_margin="15dp"
+            android:alpha="0.5"
+            android:text="@string/filtro2"/>
+
+    </LinearLayout>
+
+</ScrollView>

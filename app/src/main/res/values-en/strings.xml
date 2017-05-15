@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aves de Jardín </string>
+    <string name="Titulo_Splash"> Aves de Jardín </string>
+
+    <string name="home"> Home </string>
+    <string name="home1"> Record Sighting </string>
+    <string name="home2"> Birds </string>
+    <string name="home3"> Profile </string>
+    <string name="home4"> Tourism </string>
+    <string name="home5"> Routes </string>
+    <string name="home6"> Guides</string>
+    <string name="home7"> Recomendations </string>
+
+    <string name="menu1"> Language </string>
+    <string name="menu2"> About us </string>
+    <string name="menu3"> Links of interest</string>
+
+    <string name="submenu1"> English </string>
+    <string name="submenu2"> Spanish </string>
+
+    <string name="Acercade"> CRÉDITS </string>
+    <string name="Acercade2"> This app was developed by the research and technologic development system, SENNOVA </string>
+    <string name="Acercade3"> Copyrights</string>
+    <string name="Acercade4">  Medellín </string>
+    <string name="Acercade5">  2017 </string>
+
+    <string name="info1">  Bird Shape </string>
+    <string name="info2">  Beak Shape </string>
+    <string name="info3">  Primary Color </string>
+    <string name="info4">  Secundary Color </string>
+    <string name="info5">  Legs Color </string>
+    <string name="info6">  Endemism </string>
+    <string name="info7">  Conservation Status </string>
+    <string name="info8">  Sighting Routes </string>
+
+    <string name="rutainfo1">  Other Routes </string>
+
+    <string name="endemismoinfo1">  Migratory Bird </string>
+    <string name="endemismoinfo2">  Resident Bird </string>
+
+    <string name="conservainfo1">  Minor Concern </string>
+    <string name="conservainfo2">  Vulnerable </string>
+    <string name="conservainfo3">  Threatened </string>
+    <string name="conservainfo4">  In Danger </string>
+    <string name="conservainfo5">  Does not aply </string>
+
+    <string name="formainfo1">  Others </string>
+    <string name="formainfo2">  Predacious </string>
+    <string name="formainfo3">  Owl </string>
+    <string name="formainfo4">  Hummongbird </string>
+    <string name="formainfo5">  Parrot </string>
+    <string name="formainfo6">  Nuthatch </string>
+    <string name="formainfo7">  Swallow </string>
+    <string name="formainfo8">  Pigeon </string>
+    <string name="formainfo9">  Hern </string>
+    <string name="formainfo10"> Duck </string>
+
+    <string name="picoinfo1">  Others </string>
+    <string name="picoinfo2">  Predacious </string>
+    <string name="picoinfo3">  Nectarivore </string>
+    <string name="picoinfo4">  Multipurpose </string>
+    <string name="picoinfo5">  Seedbed </string>
+    <string name="picoinfo6">  Frugivore </string>
+    <string name="picoinfo7">  Bearded </string>
+    <string name="picoinfo8">  Insectivorous </string>
+    <string name="picoinfo9">  Generalist </string>
+    <string name="picoinfo10"> Oriole </string>
+
+    <string name="colorinfo1">  Others </string>
+    <string name="colorinfo2">  Yellow </string>
+    <string name="colorinfo3">  Blue </string>
+    <string name="colorinfo4">  White </string>
+    <string name="colorinfo5">  Brown </string>
+    <string name="colorinfo6">  Golden </string>
+    <string name="colorinfo7">  Gray </string>
+    <string name="colorinfo8">  Purple </string>
+    <string name="colorinfo9">  Orange </string>
+    <string name="colorinfo10"> Black </string>
+    <string name="colorinfo11"> Dusty Brown </string>
+    <string name="colorinfo12"> Red </string>
+    <string name="colorinfo13"> Pink </string>
+    <string name="colorinfo14"> Russet </string>
+    <string name="colorinfo15"> Turquoise </string>
+    <string name="colorinfo16"> Green </string>
+    <string name="colorinfo17"> Violet </string>
+    <string name="colorinfo18"> Beige </string>
+    <string name="colorinfo19"> Olive Green </string>
+
+    <string name="filtro1"> SEARCH CRITERIA</string>
+    <string name="filtro2"> Search  </string>
+    <string name="filtro3"> Return </string>
+
+    <string name="recomiendame"> Select each landscape item for general information </string>
+
+    <string name="recor1"> to know the route you want to make, Select each landscape item for general information </string>
+    <string name="recor2"> - You should Wear comfortable clothing for the occasion, preferably opaque and water-resistant </string>
+    <string name="recor3"> Always carry hydration and food</string>
+    <string name="recor4"> Look at the moment of the sighting Do not make movements or loud noises, always talk in a low voice </string>
+    <string name="recor5"> - Be patient, remember that birds live at their own pace </string>
+    <string name="recor6"> - If possible go with a local guide, this will facilitate the recognition of the routes and species of birds </string>
+    <string name="recor7"> Respect to the maximum the places indicated as private or restricted to the public </string>
+    <string name="recor8"> Do not throw garbage, respect the ecosystems; Do not extract natural material from forests, trails and roads </string>
+    <string name="recor9"> - If you have binoculars, cameras and field guides always take them with you this will facilitate the development of the activity </string>
+    <string name="recor10"> - Always plan the time of return, inform yourself of the transportation schedules if you are going to make use of the public service </string>
+    <string name="recor11"> Keep in mind that the activity of the birds by their wild state is changing and will not always be in the expected place </string>
+    <string name="recor12"> - Always follow the recommendations of your local guide </string>
+
+    <string name="turismoinfo1">Adress:</string>
+    <string name="turismoinfo2">Phone Number:</string>
+    <string name="turismoinfo3">E-mail:</string>
+    <string name="turismoinfo4">Distance from downtown:</string>
+    <string name="turismoinfo5">Route:</string>
+
+    <string name="link">Visit website</string>
+    <string name="sitioinfo1">Website</string>
+    <string name="sitioinfo2">Type of site</string>
+    <string name="sitioinfo3">About</string>
+
+
+    <string name="carga1">Loading Guides</string>
+    <string name="carga2">Loading Tourist sites</string>
+    <string name="carga3">Loading Interesting links</string>
+
+
+    <string name="guiainfo1">Phone number</string>
+    <string name="guiainfo2">E-mail</string>
+
+
+    <string name="cardguias">Tourist Guides in Jardín</string>
+    <string name="cardaves">Birds List </string>
+    <string name="cardturistico">Tourist sites in Jardín </string>
+    <string name="cardintereses">Interesting WEB Pages</string>
+    <string name="cardrecom">General Recomendations </string>
+
+
+    <string name="asunto_mail_turismo">Contact Aves de Jardín</string>
+    <string name="cuerpo_mail_turismo">Greetings.\n\nI would like to communicate with you in order
+        to know more details about services that your establishment offers.\n\n
+                Thanks for your attention.</string>
+    <string name="asunto_mail_guia">Contact Aves de Jardín</string>
+    <string name="cuerpo_mail_guia">Greetings.\n\n I would like to communicate with you in order
+        to know more details about touristic options in the municipality of Jardín.\n\n
+                Thanks for your attention.</string>
+    <string name="boton_aceptar">Submit</string>
+    <string name="error_mail">E-mail sending has failed.</string>
+    <string name="confirmar_permiso">You need to enable permissions for this action.</string>
+    <string name="permiso_si">permission granted.</string>
+    <string name="permiso_no">permission denied.</string>
+    <string name="no_conexion">This information is not available without internet connection</string>
+    <string name="no_mail">Must have a destination address</string>
+    <string name="no_tele">Must have a destination phone number</string>
+
+
+    <string name="filtroa">Were found: </string>
+    <string name="filtrob">Birds </string>
+
+
+
+
+
+</resources>

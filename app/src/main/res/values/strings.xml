@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Aves de Jardín</string>
+    <string name="Titulo_Splash"> AVES DE JARDÍN </string>
+
+    <string name="home"> home </string>
+    <string name="home1"> Registrar Avistamiento </string>
+    <string name="home2"> Aves </string>
+    <string name="home3"> Perfil </string>
+    <string name="home4"> Turismo </string>
+    <string name="home5"> Rutas </string>
+    <string name="home6"> Guías </string>
+    <string name="home7"> Recomendaciones </string>
+
+    <string name="menu1"> Idioma </string>
+    <string name="menu2"> Acerca de </string>
+    <string name="menu3"> Enlaces de interés </string>
+
+    <string name="submenu1"> Ingles </string>
+    <string name="submenu2"> Español </string>
+
+    <string name="Acercade"> CRÉDITOS </string>
+    <string name="Acercade2"> Aplicación desarrollada por el sistema de investigacion, desarrollo tecnologico e innovación Sennova </string>
+    <string name="Acercade3"> Todos los derechos reservados  </string>
+    <string name="Acercade4">  Medellín </string>
+    <string name="Acercade5">  2017 </string>
+
+    <string name="info1">  Forma del Ave </string>
+    <string name="info2">  Forma del Pico </string>
+    <string name="info3">  Color Primario </string>
+    <string name="info4">  Color Secundario </string>
+    <string name="info5">  Color de Patas </string>
+    <string name="info6">  Endemismo </string>
+    <string name="info7">  Estado de Conservacion </string>
+    <string name="info8">  Rutas de Avistamiento </string>
+
+    <string name="rutainfo1">  Otras Rutas </string>
+
+    <string name="endemismoinfo1">  Ave Migratoria </string>
+    <string name="endemismoinfo2">  Ave Residente </string>
+
+    <string name="conservainfo1">  Preocupación Menor </string>
+    <string name="conservainfo2">  Vulnerable </string>
+    <string name="conservainfo3">  Casi Amenazado </string>
+    <string name="conservainfo4">  En Peligro </string>
+    <string name="conservainfo5">  No Aplica </string>
+
+    <string name="formainfo1">  Otros </string>
+    <string name="formainfo2">  Rapaz </string>
+    <string name="formainfo3">  Buho </string>
+    <string name="formainfo4">  Colibrí </string>
+    <string name="formainfo5">  Loro </string>
+    <string name="formainfo6">  Trepatroncos </string>
+    <string name="formainfo7">  Golondrina </string>
+    <string name="formainfo8">  Paloma </string>
+    <string name="formainfo9">  Garza </string>
+    <string name="formainfo10"> Pato </string>
+
+    <string name="picoinfo1">  Otros </string>
+    <string name="picoinfo2">  Rapaz </string>
+    <string name="picoinfo3">  Nectivoro </string>
+    <string name="picoinfo4">  Multiusos </string>
+    <string name="picoinfo5">  Semillero </string>
+    <string name="picoinfo6">  Frugivoro </string>
+    <string name="picoinfo7">  Barbudo </string>
+    <string name="picoinfo8">  Insectivoro </string>
+    <string name="picoinfo9">  Generalista </string>
+    <string name="picoinfo10"> Oropendola </string>
+
+    <string name="colorinfo1">  Otros </string>
+    <string name="colorinfo2">  Amarillo </string>
+    <string name="colorinfo3">  Azul </string>
+    <string name="colorinfo4">  Blanco </string>
+    <string name="colorinfo5">  Café </string>
+    <string name="colorinfo6">  Dorado </string>
+    <string name="colorinfo7">  Gris </string>
+    <string name="colorinfo8">  Morado </string>
+    <string name="colorinfo9">  Naranja </string>
+    <string name="colorinfo10"> Negro </string>
+    <string name="colorinfo11"> Pardo </string>
+    <string name="colorinfo12"> Rojo </string>
+    <string name="colorinfo13"> Rosado </string>
+    <string name="colorinfo14"> Rufo </string>
+    <string name="colorinfo15"> Turquesa </string>
+    <string name="colorinfo16"> Verde </string>
+    <string name="colorinfo17"> Violeta </string>
+    <string name="colorinfo18"> Beige </string>
+    <string name="colorinfo19"> Oliva </string>
+
+
+    <string name="filtro1"> CRITERIOS DE BUSQUEDA</string>
+    <string name="filtro2"> Buscar </string>
+    <string name="filtro3"> Volver </string>
+
+    <string name="recomiendame"> Selecciona cada uno de los items del paisaje para obtener información general</string>
+
+    <string name="recor1"> Tenga clara la ruta que quiere realizar </string>
+    <string name="recor2"> - Use ropa cómoda y adecuada para la ocasión preferiblemente colores opacos y resistentes al agua </string>
+    <string name="recor3"> Lleve siempre hidratación y alimentos </string>
+    <string name="recor4"> Procure en el momento del avistamiento no Hacer movimientos ni ruidos fuertes, converse siempre con un tono de voz bajo </string>
+    <string name="recor5"> - Sea paciente, recuerde que las aves viven a su ritmo </string>
+    <string name="recor6"> - En lo posible salga acompañado por un guía local, esto le facilitara el reconocimiento de las rutas y las especies de aves </string>
+    <string name="recor7"> Respete al máximo los lugares señalados como privados o restringidos al público </string>
+    <string name="recor8"> No arrojar basuras, respete los ecosistemas; no extraiga material natural de los bosques, senderos y carreteras </string>
+    <string name="recor9"> - Si dispone de binoculares, cámaras y guías de campo llévelos siempre con usted esto le facilitara el desarrollo de la actividad </string>
+    <string name="recor10"> - Planee siempre la hora de regreso, infórmese de los horarios de transporte si va a hacer uso del servicio público </string>
+    <string name="recor11"> Tenga presente que la actividad de las aves por su estado silvestre es cambiante y no siempre se encontraran en el lugar esperado </string>
+    <string name="recor12"> - Atienda siempre a las recomendaciones de su guía local </string>
+
+
+    <string name="turismoinfo1">Direccion:</string>
+    <string name="turismoinfo2">Telefono:</string>
+    <string name="turismoinfo3">E-mail:</string>
+    <string name="turismoinfo4">Distancia desde la cabecera:</string>
+    <string name="turismoinfo5">Ruta:</string>
+    <string name="Redes">Visitar:</string>
+    <string name="turismoinfo6">A cerca de este lugar:</string>
+
+    <string name="turismo">Sitios Turísticos y recomendados :</string>
+
+
+    <string name="link">Visitar sitio web</string>
+    <string name="sitioinfo1">Dirección web</string>
+    <string name="sitioinfo2">Tipo de sitio</string>
+    <string name="sitioinfo3">Descripción</string>
+
+
+    <string name="carga1">Cargando Guias turisticos</string>
+    <string name="carga2">Cargando Sitios turisticos</string>
+    <string name="carga3">Cargando Enlaces de interes</string>
+
+
+    <string name="guiainfo1">Número de teléfono</string>
+    <string name="guiainfo2">Correo electrónico</string>
+
+    <string name="cardguias">Guias Turisticos en el municipio</string>
+    <string name="cardaves">Listado de Aves </string>
+    <string name="cardturistico">Sitios Turisticos en el municipio </string>
+    <string name="cardintereses">Páginas WEB de Interes </string>
+    <string name="cardrecom">Recomendaciones Generales </string>
+
+
+    <string name="asunto_mail_turismo">Contacto Aves de Jardín</string>
+    <string name="cuerpo_mail_turismo">Saludos.\n\nMe gustaría comunicarme con usted con el fin de conocer
+                más detalles sobre los servicios que ofrece su establecimiento.\n\n
+                Gracias por su atención.</string>
+    <string name="asunto_mail_guia">Contacto Aves de Jardín</string>
+    <string name="cuerpo_mail_guia">Saludos.\n\nMe gustaría comunicarme con usted con el fin de conocer
+                más detalles sobre opciones turísticas en el municipio de Jardín.\n\n
+                Gracias por su atención.</string>
+    <string name="boton_aceptar">Aceptar</string>
+    <string name="error_mail">Hay un error con la aplicación de mensajería.</string>
+    <string name="confirmar_permiso">Es necesario habilitar los permisos para completar la acción.</string>
+    <string name="permiso_si">Permisos concedidos.</string>
+    <string name="permiso_no">Permisos denegados.</string>
+    <string name="no_conexion">Esta informacion no esta disponible sin conexion a internet</string>
+    <string name="no_mail">Debe tener una direccion de destino</string>
+    <string name="no_tele">Debe tener un numero telefonico de destino</string>
+    <string name="no_sitio">No hay resultados. Intente con otro criterio</string>
+
+    <string name="no_calificar">Sólo puede calificar una vez:</string>
+
+
+    <string name="filtroa">Se encontraron:</string>
+    <string name="filtrob">Aves</string>
+
+
+
+    <string-array name="sitios_array">
+        <item>Filtrar por tipo de sitio</item>
+        <item>Restaurantes</item>
+        <item>Hoteles</item>
+        <item>Gasolineras</item>
+        <item>Educación</item>
+        <item>Bares</item>
+        <item>Sitios históricos</item>
+        <item>Sitios ecoturísticos</item>
+        <item>Compras</item>
+        <item>Religión</item>
+        <item>Zona WiFi</item>
+        <item>Deportes</item>
+        <item>Centros de salud</item>
+        <item>Transporte público</item>
+        <item>Resguardo indígena</item>
+        <item>Bancos, cajeros</item>
+        <item>Mostrar todos</item>
+
+    </string-array>
+
+</resources>
+
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sennova.cotinga">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Avistamiento"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Aves"
+            android:label="@string/cardaves"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Acerca_de"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ave_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visitar"
+            android:label="@string/cardintereses"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Filtro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Recomendaciones"
+            android:label="@string/cardrecom"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Turismo"
+            android:label="@string/cardturistico"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Turismo_info"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Guias"
+            android:label="@string/cardguias"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Guia_info"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Visitar_info"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+</manifest>
