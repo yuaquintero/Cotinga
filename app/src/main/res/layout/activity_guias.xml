@@ -4,11 +4,13 @@
     android:id="@+id/activity_guias"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@drawable/back_2"
+    >
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/lista_guias"
-        android:paddingTop="20dp"
+        android:paddingTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"

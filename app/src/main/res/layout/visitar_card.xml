@@ -42,6 +42,8 @@
                  android:textSize="18sp"
                  android:textStyle="bold"
                  android:paddingLeft="10dp"
+
+
                  />
 
          </LinearLayout>
@@ -50,9 +52,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Tipo Sitio"
-                android:textColor="@color/black"
+                android:textColor="@color/gray"
                 android:textSize="18sp"
                 android:padding="10dp"
+                android:textStyle="bold"
                />
 
 

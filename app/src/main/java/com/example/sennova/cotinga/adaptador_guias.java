@@ -33,14 +33,15 @@ public class adaptador_guias extends RecyclerView.Adapter<adaptador_guias.MyView
 
     public static class MyViewHolder2 extends RecyclerView.ViewHolder {
         TextView NombreGuia;
-        TextView DescripcionLugar;
+        TextView TelefonoGuia;
         ImageView FotoGuia;
         public RatingBar valoracion;
 
         public MyViewHolder2(View view) {
             super(view);
-            NombreGuia = (TextView)itemView.findViewById(R.id.tVsitio2);
+            NombreGuia = (TextView)itemView.findViewById(R.id.nombreguia);
             FotoGuia = (ImageView)itemView.findViewById(R.id.iv_tur2);
+            TelefonoGuia = (TextView)itemView.findViewById(R.id.telguia);
         }
     }
 
@@ -71,6 +72,7 @@ public class adaptador_guias extends RecyclerView.Adapter<adaptador_guias.MyView
     public void onBindViewHolder(final adaptador_guias.MyViewHolder2 holder, int position) {
         Guias_constructor guia =Guias.get(position);
         holder.NombreGuia.setText(guia.getNombre());
+        holder.TelefonoGuia.setText(String.valueOf(guia.getTelefono()));
 
         FotoStore=guia.getFoto();
         storageRef= storage.getReferenceFromUrl(urlStorage).child(FotoStore);
