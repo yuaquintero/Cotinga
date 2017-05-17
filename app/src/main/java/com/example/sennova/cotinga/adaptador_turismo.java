@@ -16,6 +16,8 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.List;
 
 public class adaptador_turismo extends RecyclerView.Adapter<adaptador_turismo.MyViewHolder>implements View.OnClickListener {
@@ -44,7 +46,7 @@ public class adaptador_turismo extends RecyclerView.Adapter<adaptador_turismo.My
         TextView EnlaceLugar;
         TextView DireccionLugar;
         ImageView FotoLugar;
-        public RatingBar valoracion;
+        TextView Tvvaloracion;
 
         public MyViewHolder(View view) {
             super(view);
@@ -52,6 +54,8 @@ public class adaptador_turismo extends RecyclerView.Adapter<adaptador_turismo.My
             EnlaceLugar = (TextView)itemView.findViewById(R.id.tVpag);
             DireccionLugar = (TextView)itemView.findViewById(R.id.tVDsitio);
             FotoLugar = (ImageView)itemView.findViewById(R.id.iv_tur);
+            Tvvaloracion=(TextView) itemView.findViewById(R.id.puntuacion);
+
 
         }
     }
@@ -94,10 +98,19 @@ public class adaptador_turismo extends RecyclerView.Adapter<adaptador_turismo.My
         holder.NombreLugar.setText(sitio.getNombre());
         holder.EnlaceLugar.setText(sitio.getEnlace());
         holder.DireccionLugar.setText(sitio.getDireccion());
-
         FotoStore=sitio.getFoto();
         storageRef= storage.getReferenceFromUrl(urlStorage).child(FotoStore);
 
+
+        DecimalFormat df = new DecimalFormat("##.#");
+        df.setRoundingMode(RoundingMode.DOWN);
+
+        String valoracion=df.format(sitio.getValoracion());
+       if( valoracion.length()==1)
+            valoracion=valoracion+",0";
+
+      //  holder.Tvvaloracion.setText(String.valueOf(sitio.getValoracion()));
+        holder.Tvvaloracion.setText(valoracion);
 
         final long ONE_MEGABYTE = 1024 * 1024;
         storageRef.getBytes(ONE_MEGABYTE).addOnSuccessListener(new OnSuccessListener<byte[]>() {

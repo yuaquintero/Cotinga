@@ -33,6 +33,9 @@ import com.google.firebase.database.Transaction;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+
 
 public class Turismo_info extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback {
 
@@ -45,7 +48,7 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
     private double Tvlat;
     private double Tvlon;
     private EditText Tvfoto;
-    private double Tvvaloracion;
+    private TextView  Tvvaloracion;
     private TextView Tvcomentario;
     private TextView Tvenlace;
     private ImageView ViewFoto;
@@ -117,6 +120,8 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
         String tel=String.valueOf(miLugar.getTelefono());
         Tvtelefono.setText(String.valueOf(miLugar.getTelefono()));
 
+
+
         Tvemail = (TextView) findViewById(R.id.temail);
         Tvemail.setText(miLugar.getEmail());
 
@@ -128,6 +133,8 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
         //tv_nota = (TextView)findViewById(R.id.tv_nota);
 
         permiso = new Permisos(miLayout,Turismo_info.this);
+
+
 
         b_telefono = (ImageButton) findViewById(R.id.b_llamar2);
         b_telefono.setOnClickListener(new View.OnClickListener() {

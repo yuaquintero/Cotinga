@@ -15,39 +15,71 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-
+            android:gravity="center"
             >
 
             <ImageView
                 android:id="@+id/iv_tur2"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_gravity="left"
+                android:layout_height="270dp"
+                android:layout_gravity="center"
 
                />
 
-
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-
-                >
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <TextView
                     android:id="@+id/nombreguia"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
+                    android:layout_weight="0.80"
+                    android:gravity="center"
+                    android:text="Sitio N"
                     android:textColor="@color/gray"
-                    android:textSize="19sp"
+                    android:textSize="19dp"
                     android:textStyle="bold"
-                    android:text="sdfhsjhfjhsdfh"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp" />
 
 
-                    />
+                <TextView
+                    android:id="@+id/valoraguia"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="3.8"
+                    android:textColor="@color/gray"
+                    android:textSize="17dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/imageView4"
+                    android:layout_toStartOf="@+id/imageView4" />
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp"
+                    android:foregroundGravity="center"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/star_orange" />
+
+
+            </RelativeLayout>
+
+
                  <LinearLayout
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
@@ -67,6 +99,8 @@
                          android:layout_height="wrap_content"
                          android:textColor="@color/text_verde"
                          android:paddingLeft="5dp"
+
+                         android:text="skadhakhfdjkshdfjahfsdljhas"
                          />
 
 
@@ -74,7 +108,7 @@
                  </LinearLayout>
 
 
-            </LinearLayout>
+
         </LinearLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>

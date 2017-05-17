@@ -32,6 +32,8 @@
                 android:gravity="center" />
 
 
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -53,8 +55,8 @@
 
                 <ImageButton
                     android:id="@+id/b_llamar2"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
                     android:background="@drawable/phone_call" />
@@ -65,14 +67,12 @@
 
                 <ImageButton
                     android:id="@+id/b_mail2"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_gravity="center"
                     android:background="@drawable/mail" />
 
             </LinearLayout>
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -88,12 +88,11 @@
                     android:background="@color/whitesmoket"
                     android:text="@string/turismoinfo2"
                     android:textColor="@color/gray"
-
+                    android:textSize="17dp"
                     android:textStyle="bold" />
 
 
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,6 +104,7 @@
                     android:layout_width="15dp"
                     android:layout_height="15dp"
                     android:src="@drawable/icon_1"
+                    android:foregroundGravity="center"
 
                     />
 
@@ -115,6 +115,7 @@
                     android:paddingLeft="5dp"
                     android:text="asdkhakjdhajh"
                     android:textColor="@color/colorPrimary"
+                    android:textSize="17dp"
                     android:textStyle="bold" />
 
 
@@ -136,6 +137,7 @@
                     android:text="@string/turismoinfo3"
                     android:textColor="@color/gray"
                     android:textStyle="bold"
+                    android:textSize="17dp"
 
                     />
 
@@ -154,6 +156,7 @@
                     android:layout_width="15dp"
                     android:layout_height="15dp"
                     android:src="@drawable/icon_1"
+                    android:layout_gravity="center"
 
                     />
 
@@ -166,6 +169,7 @@
                     android:text="askjdakjsdkajsdkjasdjakjsd"
                     android:textColor="@color/colorPrimary"
                     android:textStyle="bold"
+                    android:textSize="17dp"
 
                     />
 
@@ -186,7 +190,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/turismoinfo6"
                     android:textColor="@color/gray"
-                    android:textSize="15dp"
+                    android:textSize="20dp"
                     android:textStyle="bold"
 
 
@@ -208,6 +212,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/turismoinfo1"
                     android:textColor="@color/gray"
+                    android:textSize="17dp"
                     android:textStyle="bold" />
 
 
@@ -216,7 +221,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="5dp"
-
+                    android:textSize="17dp"
                     android:textColor="@color/gray" />
             </LinearLayout>
 
@@ -228,6 +233,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="5dp"
 
+
                 >
 
                 <TextView
@@ -235,6 +241,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/turismoinfo4"
                     android:textColor="@color/gray"
+                    android:textSize="17dp"
                     android:textStyle="bold"
 
                     />
@@ -246,7 +253,8 @@
                     android:layout_height="wrap_content"
                     android:background="@color/white"
                     android:paddingLeft="5dp"
-                    android:textColor="@color/gray" />
+                    android:textColor="@color/gray"
+                    android:textSize="17dp" />
 
             </LinearLayout>
 
@@ -266,6 +274,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
                     android:text="@string/turismoinfo5"
+                    android:textSize="17dp"
                     android:textColor="@color/gray"
                     android:textStyle="bold" />
 
@@ -275,6 +284,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
                     android:paddingLeft="5dp"
+                    android:textSize="17dp"
                     android:textColor="@color/gray" />
 
             </LinearLayout>
@@ -293,6 +303,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
                     android:text="@string/Redes"
+                    android:textSize="17dp"
                     android:textColor="@color/gray"
                     android:textStyle="bold" />
 
@@ -303,6 +314,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
                     android:paddingLeft="5dp"
+                    android:textSize="17dp"
                     android:textColor="@color/gray"
 
                     />
@@ -323,7 +335,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/gray"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+
+                    />
 
 
             </LinearLayout>

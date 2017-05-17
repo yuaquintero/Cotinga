@@ -15,6 +15,8 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.List;
 
 //https://aves-87563.firebaseio.com/guias
@@ -35,13 +37,14 @@ public class adaptador_guias extends RecyclerView.Adapter<adaptador_guias.MyView
         TextView NombreGuia;
         TextView TelefonoGuia;
         ImageView FotoGuia;
-        public RatingBar valoracion;
+        TextView  valoracion;
 
         public MyViewHolder2(View view) {
             super(view);
             NombreGuia = (TextView)itemView.findViewById(R.id.nombreguia);
             FotoGuia = (ImageView)itemView.findViewById(R.id.iv_tur2);
             TelefonoGuia = (TextView)itemView.findViewById(R.id.telguia);
+            valoracion=(TextView)itemView.findViewById(R.id.valoraguia);
         }
     }
 
@@ -76,6 +79,16 @@ public class adaptador_guias extends RecyclerView.Adapter<adaptador_guias.MyView
 
         FotoStore=guia.getFoto();
         storageRef= storage.getReferenceFromUrl(urlStorage).child(FotoStore);
+
+
+        DecimalFormat df = new DecimalFormat("##.#");
+        df.setRoundingMode(RoundingMode.DOWN);
+
+        String valoracion=df.format(guia.getValoracion());
+        if( valoracion.length()==1)
+            valoracion=valoracion+",0";
+
+        holder.valoracion.setText(valoracion);
 
         final long ONE_MEGABYTE = 1024 * 1024;
 
