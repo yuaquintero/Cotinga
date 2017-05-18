@@ -76,7 +76,7 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
         FotoStore=miLugar2.getFoto();
         storageRef= storage.getReferenceFromUrl(urlStorage).child(FotoStore);
 
-        Tvnombre = (TextView) findViewById(R.id.et_nombre_guia);
+        Tvnombre = (TextView) findViewById(R.id.nombreguia);
         Tvnombre.setText( miLugar2.getNombre());
 
         ViewFoto= (ImageView) findViewById(R.id.iv_foto_guia);
@@ -89,17 +89,19 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
             }
         });
 
-        Tvtelefono = (TextView) findViewById(R.id.tv_tel_guia);
+        Tvtelefono = (TextView) findViewById(R.id.telefonoguia
+
+        );
         String tel=String.valueOf(miLugar2.getTelefono());
         Tvtelefono.setText(String.valueOf(miLugar2.getTelefono()));
 
-        Tvemail = (TextView) findViewById(R.id.tv_mail_guia);
+        Tvemail = (TextView) findViewById(R.id.mailguia);
         Tvemail.setText(miLugar2.getEmail());
 
-        Tvlink = (TextView) findViewById(R.id.tv_link_guia);
+        Tvlink = (TextView) findViewById(R.id.pag_guia);
         Tvlink.setText(miLugar2.getEnlace());
 
-        Tvinfo = (TextView) findViewById(R.id.tv_info_guia);
+        Tvinfo = (TextView) findViewById(R.id.comentarioguia);
         Tvinfo.setText(miLugar2.getComentario());
 
         //tv_nota = (TextView)findViewById(R.id.tv_nota);
@@ -123,7 +125,7 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
         });
 //********
 //habilitar el boton de calificar
-        b_califica = (Button)findViewById(R.id.b_califica2);
+        b_califica = (Button)findViewById(R.id.b_califica);
         b_califica.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -184,6 +186,7 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
         //asignar un layout XML para el diálogo
         dialog.setContentView(R.layout.dialogo_calificar);
         // personalizar componentes del XML
+        dialog.setTitle(R.string.titulo_califica);
         Button botCalificar = (Button) dialog.findViewById(R.id.b_aceptar);
         final RatingBar rbValoracion = (RatingBar) dialog.findViewById(R.id.rb_calificar);
         //Acción del botón, cerrar ventana al terminar

@@ -131,6 +131,7 @@
 
     <string name="guiainfo1">Número de teléfono</string>
     <string name="guiainfo2">Correo electrónico</string>
+    <string name="guiainfo3">Datos básicos</string>
 
     <string name="cardguias">Guias Turisticos en el municipio</string>
     <string name="cardaves">Listado de Aves </string>
@@ -162,6 +163,8 @@
 
     <string name="filtroa">Se encontraron:</string>
     <string name="filtrob">Aves</string>
+    <string name="titulo_Califica">Calificar</string>
+    <string name="titulo_califica">Déjanos saber tu opinión</string>
 
 
 

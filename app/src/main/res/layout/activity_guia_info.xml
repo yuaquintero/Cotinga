@@ -4,67 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:paddingBottom="5dp"
-    android:paddingLeft="5dp"
-    android:paddingRight="5dp"
-    android:paddingTop="8dp"
-    android:background="@color/white"
+    android:background="@drawable/back_2"
     android:layout_height="match_parent">
-
-    <TextView
-        android:layout_gravity="center"
-        android:id="@+id/et_nombre_guia"
-        android:textSize="25sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:text="Sitio N"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <ScrollView
         android:id="@+id/guia_detalle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/fondoaves"
         android:orientation="vertical"
         android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.example.administrador.aves.Guia_info">
+       >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="15dp"
+
+            >
 
             <ImageView
                 android:id="@+id/iv_foto_guia"
-                android:layout_width="150dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center" />
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:gravity="center" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp"></LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp"></LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/white"
                 android:gravity="center"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <TextView
+
+                    android:id="@+id/nombreguia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.80"
+                    android:text="Sitio N"
+                    android:textColor="@color/gray"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
 
                 <ImageButton
                     android:id="@+id/b_llamar"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
-                    android:background="@drawable/phone_icon" />
+                    android:background="@drawable/phone_call" />
 
                 <LinearLayout
                     android:layout_width="30dp"
@@ -72,113 +67,217 @@
 
                 <ImageButton
                     android:id="@+id/b_mail"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/mail_icon" />
+                    android:background="@drawable/mail" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp">
+
+
+                <TextView
+                    android:id="@+id/telguia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/whitesmoket"
+                    android:text="@string/turismoinfo2"
+                    android:textColor="@color/gray"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/icon_1"
+                    android:foregroundGravity="center"
+
+                    />
+
+                <TextView
+                    android:id="@+id/telefonoguia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="asdkhakjdhajh"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/SitioLink"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:background="@color/whitesmoket"
-                android:text="@string/guiainfo1"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="5dp"></LinearLayout>
-
-            <TextView
-                android:id="@+id/tv_tel_guia"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp"></LinearLayout>
-
-            <TextView
-                android:id="@+id/TipoSitio"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:background="@color/whitesmoket"
-                android:text="@string/guiainfo2"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="5dp"></LinearLayout>
-
-            <TextView
-                android:id="@+id/tv_mail_guia"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turismoinfo3"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
                 android:padding="5dp">
 
-
-                <TextView
-                    android:id="@+id/tv_link_guia"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="askhdajshdjahsdjkhasjdh"
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/icon_1"
+                    android:layout_gravity="center"
 
                     />
+
+                <TextView
+
+                    android:id="@+id/mailguia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="askjdakjsdkajsdkjasdjakjsd"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="5dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/enlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/Redes"
+                    android:textColor="@color/gray"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/pag_guia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingLeft="5dp"
+                    android:textSize="17dp"
+                    android:textColor="@color/gray"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="8dp"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/guiainfo3"
+                    android:textColor="@color/gray"
+                    android:textSize="20dp"
+
+
+                    android:textStyle="bold" />
+
+
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="5dp"
+                android:background="@color/white"
+                android:paddingLeft="5dp"
 
                 >
 
-
                 <TextView
-                    android:id="@+id/tv_info_guia"
-                    android:layout_width="match_parent"
+                    android:id="@+id/comentarioguia"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="askhdajshdjahsdjkhasjdh"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
 
                     />
+
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="5dp"
-               android:gravity="center"
-                >
+                android:background="@color/white"
+                android:padding="20dp"
+                android:gravity="center"
 
+                >
 
                 <Button
-                    android:id="@+id/b_califica2"
+                    android:id="@+id/b_califica"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Calificar"
+
                     />
+
+
             </LinearLayout>
 
 
         </LinearLayout>
-
 
     </ScrollView>
 
