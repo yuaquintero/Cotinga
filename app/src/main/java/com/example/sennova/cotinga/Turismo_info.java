@@ -48,7 +48,7 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
     private double Tvlat;
     private double Tvlon;
     private EditText Tvfoto;
-    private TextView  Tvvaloracion;
+
     private TextView Tvcomentario;
     private TextView Tvenlace;
     private ImageView ViewFoto;
@@ -104,6 +104,8 @@ public class Turismo_info extends AppCompatActivity implements ActivityCompat.On
 
         Tvenlace = (TextView) findViewById(R.id.enlace_inf);
         Tvenlace.setText(miLugar.getEnlace());
+
+
 
         ViewFoto= (ImageView) findViewById(R.id.foto);
 

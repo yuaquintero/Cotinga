@@ -38,6 +38,7 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
     private TextView Tvemail;
     private TextView Tvlink;
     private TextView Tvinfo;
+
     private ImageView ViewFoto;
     private Permisos permiso;
     private View miLayout;
@@ -103,6 +104,8 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
 
         Tvinfo = (TextView) findViewById(R.id.comentarioguia);
         Tvinfo.setText(miLugar2.getComentario());
+
+
 
         //tv_nota = (TextView)findViewById(R.id.tv_nota);
 
@@ -184,6 +187,7 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
         // dialogo personalizado
         final Dialog dialog = new Dialog(contexto);
         //asignar un layout XML para el diálogo
+
         dialog.setContentView(R.layout.dialogo_calificar);
         // personalizar componentes del XML
         dialog.setTitle(R.string.titulo_califica);

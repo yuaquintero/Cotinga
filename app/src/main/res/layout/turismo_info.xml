@@ -59,6 +59,7 @@
                     android:layout_height="30dp"
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
+
                     android:background="@drawable/phone_call" />
 
                 <LinearLayout
@@ -286,6 +287,13 @@
                     android:paddingLeft="5dp"
                     android:textSize="17dp"
                     android:textColor="@color/gray" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button" />
 
             </LinearLayout>
 

@@ -49,7 +49,6 @@
                     android:layout_marginLeft="12dp"
                     android:layout_marginStart="12dp" />
 
-
                 <TextView
                     android:id="@+id/valoraguia"
                     android:layout_width="35dp"
@@ -76,9 +75,7 @@
                     android:paddingLeft="5dp"
                     android:src="@drawable/star_orange" />
 
-
             </RelativeLayout>
-
 
                  <LinearLayout
                      android:layout_width="match_parent"
@@ -100,10 +97,7 @@
                          android:textColor="@color/text_verde"
                          android:paddingLeft="5dp"
 
-                         android:text="skadhakhfdjkshdfjahfsdljhas"
                          />
-
-
 
                  </LinearLayout>
 
